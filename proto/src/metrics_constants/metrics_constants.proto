@@ -7428,6 +7428,9 @@ message MetricsEvent {
     // CATEGORY: GLOBAL_SYSTEM_UI
     // OS: Q - QPR1
     ACTION_ACTIVITY_CHOOSER_PICKED_SYSTEM_TARGET = 1749;
+	
+	// CustomSettings constant
+    CUSTOM_SETTINGS = 1999;
 
     // OPEN: Settings > System > Aware > Aware Display
     // OS: Q
