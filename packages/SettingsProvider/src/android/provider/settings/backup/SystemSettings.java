@@ -83,6 +83,7 @@ public class SystemSettings {
         Settings.System.DISPLAY_COLOR_MODE_VENDOR_HINT, // must precede DISPLAY_COLOR_MODE
         Settings.System.DISPLAY_COLOR_MODE,
         Settings.System.ALARM_ALERT,
+        Settings.System.ENABLE_RIPPLE_EFFECT,
         Settings.System.NOTIFICATION_LIGHT_PULSE,
     };
 }
