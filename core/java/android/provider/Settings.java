@@ -5204,7 +5204,7 @@ public final class Settings {
          */
         @Readable
         public static final String SHOW_BATTERY_PERCENT = "status_bar_show_battery_percent";
-
+        
         /**
          * Whether or not to enable multiple audio focus.
          * When enabled, requires more management by user over application playback activity,
@@ -10336,6 +10336,11 @@ public final class Settings {
          */
         public static final String DEVICE_STATE_ROTATION_LOCK =
                 "device_state_rotation_lock";
+
+        /**
+         * @hide
+         */
+        public static final String SHOW_COMBINED_STATUS_BAR_SIGNAL_ICONS = "show_combined_status_bar_signal_icons";
 
         /**
          * These entries are considered common between the personal and the managed profile,
