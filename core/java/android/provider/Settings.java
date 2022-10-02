@@ -5249,11 +5249,6 @@ public final class Settings {
         public static final String ENABLE_RIPPLE_EFFECT = "enable_ripple_effect";
 
         /**
-         * @hide
-         */
-        public static final String SHOW_COMBINED_STATUS_BAR_SIGNAL_ICONS = "show_combined_status_bar_signal_icons";
-
-        /**
          * Arcane Idle Manager
          * @hide
          */
@@ -10353,6 +10348,11 @@ public final class Settings {
          */
         @Readable
         public static final String WINDOW_IGNORE_SECURE = "window_ignore_secure";
+
+        /**
+         * @hide
+         */
+        public static final String SHOW_COMBINED_STATUS_BAR_SIGNAL_ICONS = "show_combined_status_bar_signal_icons";
 
         /**
          * These entries are considered common between the personal and the managed profile,
